@@ -17,7 +17,7 @@
   <tbody>
     <% @shoes.each do |shoe| %>
       <tr>
-        <td><%= shoe.name %></td>
+        <td><%= link_to shoe.name, shoe %></td>
         <td><%= shoe.brand %></td>
         <td><%= shoe.category %></td>
         <td><%= shoe.price %></td>
