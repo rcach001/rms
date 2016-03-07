@@ -16,6 +16,7 @@ gem 'pg', group: :production
 
 gem 'fog-aws'
 gem 'figaro'
+gem 'mini_magick'
 
 group :development, :test do
 
